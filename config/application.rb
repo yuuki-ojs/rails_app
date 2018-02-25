@@ -32,5 +32,6 @@ module RailsApp
     config.active_record.default_timezone = :local
     config.i18n.available_locales = [:en, :ja]
     config.i18n.default_locale = :ja
+    config.read_encrypted_secrets = true
   end
 end
